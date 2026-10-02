@@ -5,7 +5,7 @@
 
 **Version 3.56 · October 2, 2026** · single-file web app · runs offline in any modern browser
 
-- **Website:** `[index.html](https://balreetdhatt.github.io/Pocket-Studio---Laneway-Design/)`
+- **Website:** `https://balreetdhatt.github.io/Pocket-Studio---Laneway-Design/`
 - **Tool:** `r1-1-laneway-house-tester.html` (open it directly, or from the website's *Open the tool* buttons)
 
 ---
