@@ -1,0 +1,317 @@
+{
+ "address": "2893 E 49TH AV",
+ "zone": "R1-1",
+ "lot_width_m": 13.53,
+ "lot_depth_m": 55.94,
+ "site_area_m2": 701.2,
+ "existing_house_m2": 217.1,
+ "inputs": {
+  "preset": "Double storey (contemporary gable)",
+  "ground_floor_m": [
+   6.4,
+   9.4
+  ],
+  "upper_floor_m": [
+   6.4,
+   5.6
+  ],
+  "floor_to_floor_m": [
+   3,
+   2.7
+  ],
+  "roof": "gable, ridge along lot depth",
+  "pitch_rise_per_m": 0.85,
+  "eave_m": 0.1,
+  "separation_m": 4.9,
+  "materials": {
+   "clad": "cedarL",
+   "cladU": "panelD",
+   "roof": "shingle",
+   "trim": "black",
+   "frame": "black"
+  },
+  "layout": "2-bed \u00b7 two storey \u00b7 88 m\u00b2"
+ },
+ "results": {
+  "floor_area_m2": 96,
+  "ground_m2": 60.2,
+  "upper_m2": 35.8,
+  "height_m": 8.42,
+  "site_coverage_pct": 39.5,
+  "side_setbacks_m": [
+   3.05,
+   2.9
+  ],
+  "stair": {
+   "type": "straight",
+   "n": 15,
+   "r": 0.2,
+   "run": 0.255
+  },
+  "rooms": {
+   "g": [
+    [
+     "stair",
+     1,
+     4.47
+    ],
+    [
+     "bath",
+     1.83,
+     2.4
+    ],
+    [
+     "laundry",
+     1.83,
+     1
+    ],
+    [
+     "kitchen",
+     2.2,
+     3
+    ],
+    [
+     "living",
+     4.17,
+     3.6
+    ],
+    [
+     "dining",
+     2.77,
+     4.15
+    ]
+   ],
+   "u": [
+    [
+     "stair",
+     1,
+     4.47
+    ],
+    [
+     "storage",
+     2.1,
+     0.73
+    ],
+    [
+     "hall",
+     1,
+     4.47
+    ],
+    [
+     "bed",
+     3.9,
+     2.6
+    ],
+    [
+     "bed",
+     3.9,
+     2.6
+    ]
+   ]
+  },
+  "openings": [
+   [
+    "lane",
+    "g",
+    "door",
+    1,
+    2.1,
+    0
+   ],
+   [
+    "lane",
+    "g",
+    "fixed",
+    0.6,
+    1.5,
+    0.75
+   ],
+   [
+    "lane",
+    "u",
+    "fixed",
+    1.2,
+    1.95,
+    0.45
+   ],
+   [
+    "right",
+    "u",
+    "casement",
+    0.9,
+    0.9,
+    1.05
+   ],
+   [
+    "right",
+    "g",
+    "casement",
+    0.9,
+    0.9,
+    1.15
+   ],
+   [
+    "right",
+    "u",
+    "casement",
+    0.9,
+    0.9,
+    1.05
+   ],
+   [
+    "right",
+    "g",
+    "casement",
+    0.9,
+    0.9,
+    1.15
+   ],
+   [
+    "right",
+    "g",
+    "casement",
+    0.9,
+    0.9,
+    1.15
+   ],
+   [
+    "street",
+    "g",
+    "slider",
+    2.4,
+    2.1,
+    0.06
+   ],
+   [
+    "street",
+    "u",
+    "casement",
+    1.2,
+    1.5,
+    0.9
+   ],
+   [
+    "left",
+    "g",
+    "awning",
+    0.6,
+    0.6,
+    1.6
+   ]
+  ],
+  "checks": [
+   {
+    "k": "site",
+    "label": null,
+    "meas": "Viable lot \u2014 R1-1, lane at the rear, no structure on record behind the house \u2014 Corner lot \u2014 a street runs along one side; s.11.3.8.6(c) side setbacks still apply to both side property lines, and the flanking street frontage may carry extra design guidance.",
+    "clause": "s.11.3.8.1; R1-1 s.2.1",
+    "status": "pass"
+   },
+   {
+    "k": "sep",
+    "label": null,
+    "meas": "4.9 m",
+    "clause": "s.11.3.8.6(a)",
+    "status": "pass"
+   },
+   {
+    "k": "lane",
+    "label": null,
+    "meas": "5.5 m",
+    "clause": "s.11.3.8.6(b)",
+    "status": "pass"
+   },
+   {
+    "k": "side",
+    "label": null,
+    "meas": "ground L 3.1 / R 2.9 m \u00b7 upper L 3.1 / R 2.9 m",
+    "clause": "s.11.3.8.6(c)",
+    "status": "pass"
+   },
+   {
+    "k": "height",
+    "label": null,
+    "meas": "8.4 m total",
+    "clause": "s.11.3.8.4",
+    "status": "pass"
+   },
+   {
+    "k": "area",
+    "label": null,
+    "meas": "96.0 m\u00b2 \u00b7 FSR 0.14",
+    "clause": "s.11.3.8.2",
+    "status": "pass"
+   },
+   {
+    "k": "cov",
+    "label": null,
+    "meas": "39.5%",
+    "clause": "s.11.3.8.5; R1-1 s.3.2.2.7",
+    "status": "pass"
+   },
+   {
+    "k": "width",
+    "label": null,
+    "meas": "13.5 m",
+    "clause": "s.11.3.8.3",
+    "status": "pass"
+   },
+   {
+    "k": "ratio",
+    "label": null,
+    "meas": "35.8 m\u00b2 = 60% of ground",
+    "clause": "Brief rule",
+    "status": "pass"
+   },
+   {
+    "k": "inlot",
+    "label": null,
+    "meas": "within lot",
+    "clause": "geometry",
+    "status": "pass"
+   },
+   {
+    "k": "ff",
+    "label": null,
+    "meas": "3.0 / 2.7 m",
+    "clause": "s.11.3.8.8(c)",
+    "status": "info"
+   },
+   {
+    "k": "liv",
+    "label": null,
+    "meas": "3.0 / 2.7 m",
+    "clause": "Design note",
+    "status": "info"
+   },
+   {
+    "k": "trees",
+    "label": null,
+    "meas": "0 public tree(s) at the frontage",
+    "clause": "R1-1 s.2.2.1; s.2.2.2",
+    "status": "info"
+   },
+   {
+    "k": "use",
+    "label": null,
+    "meas": "existing footprint used \u00b7 rear: LANE",
+    "clause": "s.11.3.8.1; R1-1 s.2.1",
+    "status": "info"
+   },
+   {
+    "k": "fsrx",
+    "label": null,
+    "meas": "96.0 m\u00b2 excluded",
+    "clause": "R1-1 s.4.1.2(a); s.2.2.4",
+    "status": "info"
+   },
+   {
+    "k": "deck",
+    "label": null,
+    "meas": "roof only",
+    "clause": "s.11.3.8.10",
+    "status": "info"
+   }
+  ]
+ }
+}
